@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	include "Car.class.php";
 	
 	class RaceCar extends Car{

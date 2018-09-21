@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	class Test{
 		static $x;
 		static function f(){

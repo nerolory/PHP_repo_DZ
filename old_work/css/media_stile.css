@@ -1,0 +1,546 @@
+/* 1250 пикселей */
+@media screen and (max-width: 1250px){
+	.brand{
+		flex-wrap: wrap;
+	}
+	#about_us{
+		width: 100%;
+		float:left;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		font-family: roboto;
+		padding-left: 0px;
+		
+	}
+	.goods{
+		width: 150px
+	}
+	.footer_menu{
+		width: 25%
+	}
+	.footer_sp{
+		clear: both;
+		height: 80px;
+	}
+	.sub_text{
+		margin-bottom: 100px;
+	}
+}
+/* кеонец */
+/* 1000 пикселей */
+@media screen and (max-width: 1000px){
+	#message_2{
+		right: 10px;
+		width: 200px
+	}
+	#message_2 h2{
+		width: 180px;
+	}
+	#head_booton{
+		top: 550px;
+		right: 30px
+	}
+	
+}
+
+/* кеонец */
+/* 950 пикселей */
+@media screen and (max-width: 950px){
+	#feedback_form{
+		width: 95%
+	}
+	#contact_info{
+		width: 95%;
+		border-left: 0px solid #ccc; /* Параметры линии */ 
+   		margin-left: 20px; /* Отступ слева */
+   		padding-left: 10px; /* Расстояние от линии до текста */ 
+	}
+	.sub_text{
+		width: 100%;
+	}
+	#example{
+		width: 100%;
+	}
+}
+/* кеонец */
+
+/* 700 пикселей */
+@media screen and (max-width: 700px){
+	/* Хедер */
+
+	#logo{ /* логотип */
+		position: absolute;
+		left: 234px;
+		top: 50px;
+	}
+	.social{ /* Социальные сети в шапке */
+		position: absolute;
+		left: 260px;
+		top: 25px;
+		width: 120px;
+		height: 16px;
+	}
+	#message_1{ /* 1-е сообщение в шапке */
+		background-color: #fff51f;
+		width: 248px;
+		height: 220px;
+		position: absolute;
+		left: 165px;
+		top: 180px;
+		font-family: Raleway;
+		color: #333333;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 14px;
+		text-align: left;
+		padding-left: 22px;
+	}
+	#message_1 h2{
+		width: 215px;
+		margin-left: 25px;
+		text-align: center;
+		line-height: 22px;
+	}
+	#message_2{ /* 2-е сообщение в шапке */
+		width: 248px;
+		height: 169px;
+		position: absolute;
+		left: 165px;
+		top: 400px;
+		padding-left: 20px;
+		font-family: Raleway;
+		color:#fff51f;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 14px;
+		text-align: left;
+	}
+	#message_2 h2{
+		width: 215px;
+		margin-left: 20px;
+		text-align: center;
+		line-height: 22px;
+	}
+	#head_booton{
+		position: absolute;
+		left: 165px;
+		top: 560px;
+		background-color: #fff51f;
+		margin-left: 70px;
+		width: 125px;
+		height: 49px;
+		font-family: Raleway;
+		font-size: 14px;
+		font-weight: 800;
+		text-align: left;
+		line-height:49px; 
+	}
+	/* Конец */
+	
+	
+	/* Меню сайта */
+	.left_block{
+		float: none;
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	#mainmenu{
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		text-indent:45px;
+		width:  40%;
+		
+	}
+	#mainmenu a{
+		text-decoration: none;
+		font-family: Roboto;
+		color: BLACK;
+		background-color: #26d2fc;
+		font-size: 18px;
+		padding: 5px;
+		display: block;
+		height: 43px;
+		line-height:43px;
+		text-indent:42px;
+	}
+	#mainmenu li{
+		position: relative;
+	}
+	#menuinmenu{
+		list-style-type: none;
+		top: 0px;
+		left:100%;
+		width: 50%;
+		padding: 0px;
+		position: absolute;
+		display: none;
+	}
+	#mainmenu li:hover ul{
+		display: block;
+		float:left;
+		width: 100%;
+		margin-top: -1px;
+		border: 1px solid;
+	}
+	/* Банер под меню */
+	#baner{
+		margin-top: 10px;
+		background-color: #e0e0e0;
+		width: 100%;
+		height: 115px;
+	}
+	#spacer{
+		height: 0px;
+		margin: 0px;
+		padding: 0px;
+
+	}
+	#baner p{
+		font-family: Raleway;
+		color: #333333;
+		font-size: 36px; 
+		font-weight: 800;
+		line-height: 36px;
+		display: block;
+		width: 100%;
+		float: right;
+
+	}
+	/* Конец */
+	
+	.mainpart{
+		float: left;
+		width: 100%;
+		padding-top: 10px;
+		padding-left: 10px;
+		margin-top: 0px;
+		margin-left: 0px;
+		background-color: #f8f8f8
+	}
+	.content_caption
+	{
+		display: block;
+		width: 100%;
+		font-family: Roboto;
+		color: #717171;
+		font-size: 22px; /* Приближение из-за подстановки шрифтов */
+		font-weight: 900;
+		font-style: italic;
+		text-align: left;
+		text-transform: uppercase;
+		text-indent: 30px;
+	}
+	.line{
+		width: 100%;
+		border: #FFFFFF
+	}
+	.goods{
+		width: 27%;
+		float: left;
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
+	.paragraph{
+		font-size: 24px;
+		font-weight: 400;
+		color: #484343;
+		line-height: 24px;
+		text-align: left;
+		display: block;
+
+	}
+	.paragraph:first-letter{
+		font-size: 30px;
+		clear:both
+	}
+	.bparagraph{
+		font-size: 24px;
+		font-weight: 400;
+		color: #484343;
+		line-height: 24px;
+		text-align: left;
+		display: block;
+		float: left;
+		width: calc(100% - 500px);
+
+	}
+	.bparagraph:first-letter{
+		font-size: 30px;
+		clear:both
+	}
+	.booton{
+		background-color: #fb4d01;
+		width: 130px;
+		height: 48px;
+		border: 0px;
+	}
+	.booton:hover{
+		background: #51EC1B;
+	}
+	#main_page_img{
+		float:right;
+		width: 400px;
+		margin: auto;
+	}
+	#sample_img{
+		float:right;
+		width: 70%;
+	}
+	#example{
+		width:70%;
+		float:left;
+		border: 2px #655D7B solid;
+	}
+	.example{
+		width:100%
+	}
+	.example_1{
+		display: none;
+	}
+	#buy{
+		float:left;
+		margin-left: 20%
+	}
+	#instruct{
+		clear:both;
+	}
+	.subcaption{
+		font-size: 24px;
+		text-align: center;
+		width: 100%
+
+	}
+	.briefcaption{
+		font-size: 18px;
+		text-align: center;
+	}
+	.good{
+		float:left;
+		width: calc(50% - 55px);
+		border: #120D87 2px solid;
+		margin: 25px;
+	}
+	input.subscribe_input{
+		width: 200px;
+		height: 20px;
+		border-color: #7E66F9;
+		font-size: 18px;
+		color: green;	
+	}
+	input.subscribe_input:focus{
+		font-size: 18px;
+		color: black;
+		background-color: #BAF898
+	}
+	input.name{
+			text-transform: capitalize
+	}
+	.message{
+		width:90%;
+		height: 100px;
+		text-transform: capitalize
+	}
+	.message:focus{
+		font-size: 18px;
+		color: black;
+		background-color: #BAF898;
+	}
+	.map{
+		width:100%;
+		height: 374px;
+	}
+	/* Конец */
+	
+	
+	.brand{
+		display: block;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.brand a{
+		display: block;
+		float: left;
+		font-family: roboto;
+		text-decoration: none;
+		width: 25%;
+		font-size: 25px;
+		color: #c3c3c3;
+		font-weight: 800
+	}
+	/* футер */
+	footer{
+		position: relative;
+		color:#FFFFFF;
+		font-style: normal;
+		clear: both;
+		text-align: right;
+		background-color: #373737;
+		width: 100%;
+		min-width: inherit;
+		margin: 0px;
+	}
+	.space{
+		clear: both;
+		padding: 20px;
+	}
+
+
+	/* меню футера */
+	#footer_menu_block{
+		display: block;
+		width: 100%;
+		text-align: left;
+		font-family: Roboto;
+		margin: auto;
+	}
+	#footer_menu_block h2{
+	
+}
+	.footer_menu{
+		width: 25%;
+		float:left;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		font-family: roboto;
+
+	}
+	.footer_menu h2{
+
+		text-indent:40px
+	}
+	.footer_menu_sub{
+		width: 100%;
+		float:left;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		font-family: roboto;
+	}
+	#cards{
+		width: 100%;
+		float:left;
+		padding-top:20px;
+	}
+	#about_us{
+		width: 100%;
+		float:left;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		font-family: roboto;
+		padding-left: 0px;
+	}
+
+	.footer_menu ul{
+		list-style-type: none;
+	}
+
+
+
+
+	/* блок подписки, плюс оплата */
+	#newsleter{
+		width: 252px;
+		height: 95px;
+		float: left
+	}
+	#subscribe_form input[type=email]{
+		background-color: #fff51f;
+		width: 180px;
+		height: 30px;
+		border: 0px;
+	}
+	#subscribe_form input[type=submit]{
+		background-color: #000000;
+		width: 91px;
+		height: 34px;
+		border: 0px;
+		margin-left: -4px;
+		color: white;
+	}
+	#bbotom{
+	position: absolute;
+	left:0px;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #333333;
+	}
+	#copyright{
+		width: 60%;
+		text-align: left;
+		float: left;
+		vertical-align: bottom;
+		line-height: 30px;
+		text-indent: 10px;
+		font-family: Roboto;
+		color: #dad9d9;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.footer_sp{
+		clear: both;
+		height: 100px;
+		
+	}
+	#flink{
+		color:#9AAECC;
+	}
+	#flink:hover{
+		color: #EA7274;
+	}
+	#social_b{
+		background-color: #333333;
+		float: left;
+		width: 30%;
+	}
+	#social_bottom{
+		float: left;
+		text-indent:0px;
+	}
+
+	
+}
+/* кеонец */
+/* 400 пикселей */
+@media screen and (max-width: 400px){
+	#logo{ /* логотип */
+		left: 100px;
+	}
+	.social{ /* Социальные сети в шапке */
+		left: 110px;
+	}
+	#message_1, #message_2{ /* 1-е сообщение в шапке */
+		left: 0px;
+		width: 80%;
+		padding: 0px;
+		margin: 0px;
+	}
+	#message_1, #message_2 h2{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	#head_booton{
+		left: 50px;
+	}
+	.footer_menu{
+		width: 27%;
+		font-size: 8pt;
+	}
+	.footer_menu h2{
+		font-size: 11pt
+	}
+	#social_bottom{
+		
+	}
+	.brand a{
+		width: 50%;
+	}
+}
+/* кеонец */

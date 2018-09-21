@@ -1,0 +1,776 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#body{
+	width: 100%;
+	position: relative;
+	margin: 0px;
+
+}
+/* Конец */	
+
+
+
+
+/* Хедер */
+header{
+	height: 700px;
+}
+#feedb_hdr{
+	height: 350px;
+	background-color: #abeafa;
+}
+#logo{ /* логотип */
+	position: absolute;
+	left: 234px;
+	top: 24px;
+}
+.social{ /* Социальные сети в шапке */
+	position: absolute;
+	right: 349px;
+	top: 50px;
+	width: 160px;
+	height: 25px;
+}
+.social_c{
+	display: flex;
+	justify-content: space-between
+}
+.language select{
+	border: 0px;
+	background-color: #abeafa;
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+}
+#message_1{ /* 1-е сообщение в шапке */
+	background-color: #fff51f;
+	width: 248px; /* уменьшенно за счёт отступа от левого края */
+	height: 300px;
+	position: absolute;
+	left: 165px;
+	top: 336px;
+	font-family: Raleway;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: left;
+	padding-left: 22px; /* Отступ от левого края. */
+}
+#message_1 h2{
+	width: 215px;
+	margin-left: 25px;
+	text-align: center;
+	line-height: 22px;
+}
+#message_2{ /* 2-е сообщение в шапке */
+	width: 318px;
+	height: 169px;
+	position: absolute;
+	right:150px;
+	top: 336px;
+	font-family: Raleway;
+	color:#fff51f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: left;
+}
+#message_2 h2{
+	width: 215px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 22px;
+}
+#head_buton{
+	background-color: #dde51e;
+	position: absolute;
+	right: 200px;
+	top: 480px;
+	width: 175px;
+	height:100px;
+	font-family: Raleway;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 0.5;
+	line-height: 0.5;
+	text-align: left;
+	line-height:49px; /* для размещения текста по центру. */
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+}
+.headcap{
+	background-color: #dde51e;
+	font-size: 18pt;
+	user-select: none;
+	height: 66px;
+	line-height:66px;
+	font-family: Roboto;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+}
+#headmenu a{
+	text-decoration: none;
+	font-family: Roboto;
+	color: BLACK;
+	background-color: #fff51f;
+	font-size: 18px;
+	padding: 5px;
+	display: block;
+	height: 43px;
+	line-height:43px;
+	text-align: center;
+}
+#headmenu li{
+	position: relative;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+#headmenu a:hover{
+	color: #e5e5e5;
+	background-color: #303030;
+	transition: 0.3s;
+}
+/* Конец */
+
+
+
+
+/* Меню сайта */
+.left_block{
+	float: left;
+	width: 270px;
+	margin-left: 165px;
+	margin-top: -20px;
+}
+.left_block_c{
+	margin-top: 0px;
+}
+.menu_fb{
+	margin-top: 0px;
+}
+#mainmenu{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	text-indent:45px
+}
+#mainmenu a{
+	text-decoration: none;
+	font-family: Roboto;
+	color: BLACK;
+	background-color: #26d2fc;
+	font-size: 18px;
+	padding: 5px;
+	display: block;
+	height: 43px;
+	line-height:43px;
+	text-indent:42px;
+}
+#mainmenu li{
+	position: relative;
+}
+#mainmenu a:hover{
+	color: #e5e5e5;
+	background-color: #303030;
+	transition: 0.3s;
+}
+#menuinmenu{
+	list-style-type: none;
+	top: 0px;
+	left:100%;
+	width: 270px;
+	padding: 0px;
+	position: absolute;
+	display: none;
+}
+#mainmenu li:hover ul{
+	display: block;
+	position: absolute
+	
+}
+.menucap{
+	color: #e5e5e5;
+	background: #303030;
+	font-size: 18pt;
+	user-select: none;
+	height: 66px;
+	line-height:66px;
+	text-indent:42px;
+	font-family: Roboto;
+}
+/* Банер под меню */
+#baner{
+	margin-top: 30px;
+	background-color: #e0e0e0;
+	width: 270px;
+	height: 300px;
+}
+#spacer{
+	height: 110px;
+	margin: 0px;
+	padding: 0px
+		
+}
+#baner p{
+	font-family: Raleway;
+	color: #333333;
+	font-size: 36px; 
+	font-weight: 800;
+	line-height: 36px;
+	display: block;
+	width: 170px;
+	float: right;
+	
+}
+/* Конец */
+
+
+
+
+/*Основной раздел*/
+.mainpart{
+	float: left;
+	width: calc(90% - 470px);
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-top: -20px;
+	margin-left: 30px;
+	background-color: #f8f8f8
+}
+.mainpart_c{
+	margin-top: 0px;
+}
+.mainpart_fb{
+	margin-top: 0px;
+}
+.mainpart n{
+	background-color: #faef03;
+}
+.breadcramp{
+	font-family: Roboto;
+	color: #989898;
+	font-size: 12px; 
+	font-weight: 400;
+}
+.breadcramp a{
+	text-decoration: none;
+	
+	color: #989898;
+}
+.mainpart_fb p{
+	font-family: Roboto;
+	color: #989898;
+	font-size: 12px; 
+	font-weight: 400;
+}
+#feedback_form{
+	width: 45%;
+	float: left
+}
+#contact_info{
+	width: 30%;
+	height: 450px;
+	float: left;
+	 border-left: 2px solid #ccc; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+	
+}
+#contact_info p{
+	font-family: Roboto;
+	color: #777777;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px; 
+	text-align: left;
+	float:left;
+	width: 180px;
+}
+#contact_info p a{
+	
+	text-decoration: none;
+	color: #777777;
+}
+#contact_info p a:hover{
+	color:#3F6F00
+}
+#contact_info p img{
+	float:left;
+	margin-right: 5px
+}
+.content_caption
+{
+	display: block;
+	width: 100%;
+	font-family: Roboto;
+	color: #717171;
+	font-size: 22px; 
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	text-transform: uppercase;
+	text-indent: 30px;
+}
+.line{
+	width: 100%;
+	border: #FFFFFF
+}
+.goods{
+	width: 25%;
+	height: 280px;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+	
+}
+.goods img{
+	width: 90%;
+}
+.content_img{
+	width: 90%;
+}
+.goods_name{
+	float:left;
+	font-family: Roboto;
+	color: #333333;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	font-style: italic;
+	line-height: 18.012px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	
+}
+.price{
+	font-family: Roboto;
+	color: #333333;
+	font-size: 18px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	font-style: italic;
+	text-align: right;
+}
+.adm_button{
+	font-family: Roboto;
+	color: #333333;
+	font-size: 18px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	font-style: italic;
+	text-align: right;
+}
+.non_discont_price
+{
+	font-family: Roboto;
+	color: #e24602;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	font-style: italic;
+	text-align: right;
+	text-decoration:line-through;
+	margin-top:-15px;
+}
+.paragraph{
+	font-family: Verdana;
+	color: #808080;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	text-align: left;
+	display: block;
+	
+}
+.paragraph li:first-letter{
+	font-size: 18px;
+	font-style: italic
+}
+.booton{
+	background-color: #fb4d01;
+	width: 130px;
+	height: 48px;
+	border: 0px;
+}
+.booton:hover{
+	background: #51EC1B;
+}
+#main_page_img{
+	float:right;
+	width: 400px;
+	margin: auto;
+}
+#sample_img{
+	float:right;
+	width: 70%;
+}
+.content_caption{
+	display: block;
+	float: left;
+	width: 100%
+}
+.bord{
+	position: relative;
+	border-color: #e0e0e0;
+	margin-bottom: 25px;
+	width: 95%;
+}
+.bord #leg{
+	position: absolute;
+	height: 35px;
+	line-height: 35px;
+	top:-36px;
+	display: block;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: #26d2fc
+}
+#example{
+	width: 40%;
+	float: left;
+	margin-bottom: 50px;
+}
+#example .example_1{
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #eeeeee;
+	background-color: #e0e0e0;
+	
+}
+.sectors{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.example{
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #eeeeee;
+	background-color: #eaeaea;
+}
+
+.example:hover .example_1:hover{
+border-color: transparent
+}
+#buy{
+	float:left;
+	margin-left: 20%
+}
+#instruct{
+	clear:both;
+}
+.subcaption{
+	font-family: Roboto;
+	color: #353535;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+		
+}
+.sub_text{
+	float:left;
+	width: 55%;
+	margin-left: 20px;
+	font-family: Roboto;
+	color: #707070;
+	font-size: 12px; 
+	font-weight: 400;
+	line-height: 16px;
+	text-align: left;
+}
+.sub_text h2{
+	font-family: Roboto;
+	color: #353535;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 40px;
+	line-height: 25px		
+}
+.sub_text h4{
+	font-family: Roboto;
+	color: #353535;
+	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 20px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	text-transform: uppercase
+}
+.sub_text hr{
+	background-color: rgba(51, 51, 51, 0.1);
+	height: 1px;
+	width: 90%
+}
+.briefcaption{
+	font-size: 18px;
+	text-align: center;
+}
+.good{
+	float:left;
+	width: calc(50% - 55px);
+	border: #120D87 2px solid;
+	margin: 25px;
+}
+input.subscribe_input{
+	width: 200px;
+	height: 20px;
+	border-color: #7E66F9;
+	font-size: 18px;
+	color: green;	
+}
+input.subscribe_input:focus{
+	font-size: 18px;
+	color: black;
+	background-color: #BAF898
+}
+input.name{
+		text-transform: capitalize
+}
+.message{
+	width:90%;
+	height: 100px;
+}
+.message:focus,.subject:focus,.company:focus,.email:focus,.name:focus{
+	color: black;
+	background-color: #BAF898;
+}
+.map{
+	width:100%;
+	height: 374px;
+}
+/* Конец */
+
+
+
+
+.space{
+	clear: both;
+}
+#space{
+	clear: both;
+}
+
+/* БРЕНД */
+.brand{
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+}
+.brand a{
+	font-family: roboto;
+	text-decoration: none;
+	font-size: 35px;
+	color: #c3c3c3;
+	font-weight: 800
+}
+
+/* НАД ФУТЕРОМ */
+#social_middle{
+	width: 78%;
+	margin: auto;
+	background-color: #eaeaea;
+}
+#tittle_sb{
+	font-family: Roboto;
+	color: #333333;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+}
+#instagram{
+	display: flex;
+	justify-content:space-between;
+	
+}
+#instagram a{
+	width: 16%
+}
+#instagram a img{
+	width:100%
+}
+#social_link{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-flow: row;
+	align-self: center;
+			
+}
+.space_s{
+	display: flex;
+	flex-flow: row;
+	align-content: center;
+	vertical-align: middle;
+	width: 33%;
+	height: 100%;
+}
+.space_s a{
+	display: block;
+	margin: auto	
+}
+.space_s1{
+	background-color: #3b5997;
+}
+.space_s2{
+	background-color: #3fccfd;
+}
+.space_s3{
+	background-color: #cb2027;
+}
+
+/* футер */
+footer{
+	position: relative;
+	min-height: 348px;
+	color:#FFFFFF;
+	font-style: normal;
+	clear: both;
+	text-align: right;
+	background-color: #373737;
+	width: 100%;
+	margin: 0px;
+}
+.space{
+	clear: both;
+	padding: 20px;
+}
+
+
+/* меню футера */
+#footer_menu_block{
+	width: 90%;
+	text-align: left;
+	font-family: Roboto;
+	margin: auto;
+	top: 75px;
+}
+#footer_menu_block h2{
+	font-size: 18px
+}
+.footer_menu{
+	width: 15%;
+	float:left;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	font-family: roboto;
+	
+}
+.footer_menu h2{
+	
+	text-indent:40px
+}
+.footer_menu_sub{
+	width: 272px;
+	float:left;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	font-family: roboto;
+}
+#cards{
+	width: 272px;
+	float:left;
+	padding-top:20px;
+}
+#about_us{
+	width: 272px;
+	float:left;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	font-family: roboto;
+	padding-left: 30px;
+	height: calc(100% - 348px)
+}
+
+.footer_menu ul{
+	list-style-type: none;
+}
+
+
+
+
+/* блок подписки, плюс оплата */
+#newsleter{
+	width: 252px;
+	height: 95px;
+	float: left
+}
+#subscribe_form input[type=email]{
+	background-color: #fff51f;
+	width: 180px;
+	height: 30px;
+	border: 0px;
+}
+#subscribe_form input[type=submit]{
+	background-color: #000000;
+	width: 91px;
+	height: 34px;
+	border: 0px;
+	margin-left: -4px;
+	color: white;
+}
+
+
+
+/* Элементы копирайт и соцсети в подвале */
+#bbotom{
+	position: absolute;
+	left:0px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #333333;
+}
+#copyright{
+	width: 60%;
+	height: 47px;
+	text-align: left;
+	vertical-align: bottom;
+	line-height:47px;
+	text-indent:100px;
+	font-family: Roboto;
+	color: #dad9d9;
+	font-size: 12px;
+	font-weight: 400;
+	float: left
+}
+#flink{
+	color:#9AAECC;
+}
+#flink:hover{
+	color: #EA7274;
+}
+#social_b{
+	background-color: #333333;
+	float: right;
+	width: 30%;
+	height: 47px;
+	line-height:47px;
+}
+#social_bottom{
+	float: left;
+	text-indent:0px;
+}
+
+
+/* Конец */
