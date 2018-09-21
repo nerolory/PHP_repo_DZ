@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	function goods($connection){ // функция для формирования списка товаров.
 		$sql = "select * from goods";
 		$res = mysqli_query($connection,$sql);

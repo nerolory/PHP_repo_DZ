@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	include "models/function.php";
 	include "configs/config.php";
 	include_once "classes/Product.php";

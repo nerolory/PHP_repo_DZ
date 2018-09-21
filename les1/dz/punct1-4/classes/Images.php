@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	
 	class Images extends Product{// Создаем класс и объявляем его дочерним классом класса Product
 		protected $src;

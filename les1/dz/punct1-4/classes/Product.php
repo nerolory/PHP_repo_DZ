@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	class Product{// Создаем класс
 		protected $name;
 		protected $price;
